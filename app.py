@@ -198,46 +198,39 @@ MIME_TYPES = {
 
 
 def load_cover_image() -> str:
-    """Load cover.png from same directory and return as base64 data URI"""
-    cover_path = Path(__file__).parent / "fall_cover.png"
-    if cover_path.exists():
-        data = cover_path.read_bytes()
-        b64 = base64.b64encode(data).decode("utf-8")
-        return f"data:image/png;base64,{b64}"
-    return ""
+    """Load fall_cover.png from same directory, resized, and return as base64 data URI"""
+    # 1040 = twice the page width, so the cover stays sharp on high-resolution screens
+    return load_local_image("fall_cover.png", 1040) or ""
 
 
-@lru_cache(maxsize=None)
-def load_local_image(path: Optional[str]) -> Optional[str]:
+def load_local_image(path: Optional[str], max_px: int = 480) -> Optional[str]:
     """
     Resolve a photo reference to something an <img> can display.
     - http(s) URLs and data URIs pass through unchanged
     - local paths (e.g. 'headshots/maggiew.jpg') are read from disk next to this
-      file and embedded as base64 (the magazine renders inside an iframe, so
-      plain relative paths wouldn't load)
+      file, shrunk to at most max_px wide, and embedded as base64 (the magazine
+      renders inside an iframe, so plain relative paths wouldn't load)
     - returns None if the file doesn't exist yet (a placeholder is shown instead)
+    No lru_cache here: the finished magazine is cached once (see get_magazine_html),
+    so a second per-image cache would only hold duplicate copies in memory.
     """
     if not path:
         return None
     if path.startswith(("http://", "https://", "data:")):
         return path
-    file_path = Path(__file__).parent / path
-    if not file_path.exists():
-        return None
-    mime = MIME_TYPES.get(file_path.suffix.lower(), "image/jpeg")
-    b64 = base64.b64encode(file_path.read_bytes()).decode("utf-8")
-    return f"data:{mime};base64,{b64}"
+    loaded = load_figure_image(path, max_px)
+    return loaded[0] if loaded else None
 
 
 MAX_FIGURE_PX = 900     # article pictures are shrunk to this width so the page stays light
 
 
-@lru_cache(maxsize=None)
 def load_figure_image(path: str, max_px: int = MAX_FIGURE_PX) -> Optional[Tuple[str, float]]:
     """
     Read an article picture. Returns (base64 data URI, width/height) or None if the file
     isn't there yet. Phone-photo rotation (EXIF) is applied so the measured shape is the shape you see.
     max_px is the widest the picture may be (wider ones are shrunk); picture pages pass a larger value.
+    No lru_cache: see load_local_image.
     """
     file_path = Path(__file__).parent / path
     if not file_path.exists():
@@ -992,7 +985,7 @@ def build_back_cover(issue: Issue) -> str:
     - BACK_COVER_IMAGE = ""                    -> the designed back cover (BACK_COVER_THANKS / _TAGLINE)
     """
     if BACK_COVER_IMAGE:
-        src = load_local_image(BACK_COVER_IMAGE)
+        src = load_local_image(BACK_COVER_IMAGE, 1040)
         if src:
             return (f'<div class="pg pg-cover-photo"><img src="{src}" alt="" '
                     f'style="width:100%;height:100%;object-fit:contain;display:block;"></div>')
@@ -1027,7 +1020,7 @@ def build_back_cover(issue: Issue) -> str:
 
 def image_spot(path: str, css_class: str) -> str:
     """A framed image spot; shows a labelled placeholder until the file exists"""
-    src = load_local_image(path)
+    src = load_local_image(path, 600)
     if src:
         inner = f'<img src="{src}" alt="">'
     else:
@@ -1051,7 +1044,7 @@ def build_editor_letter(issue: Issue) -> str:
     Build editor's letter page HTML: tall photo beside the headline, the letter in a
     narrow column beside a wider photo, and the signature (with round photo) at the bottom.
     """
-    photo_src = load_local_image(EDITOR_PHOTO)
+    photo_src = load_local_image(EDITOR_PHOTO, 200)
     if photo_src:
         photo = f'<img src="{photo_src}" alt="Editor">'
     else:
@@ -2070,8 +2063,31 @@ def build_full_html(issue: Issue, cover_src: str) -> str:
 # 11. STREAMLIT RENDER
 # ═══════════════════════════════════════════════════════════════════════════
 
-cover_src = load_cover_image()
-magazine_html = build_full_html(MAGAZINE, cover_src)
+def rss_mb() -> Tuple[float, float]:
+    """(current, peak) memory of this process in MB. Linux only; returns (-1, -1) elsewhere."""
+    try:
+        with open("/proc/self/status") as f:
+            v = {line.split(":")[0]: int(line.split()[1]) / 1024
+                 for line in f if line.startswith(("VmRSS", "VmHWM"))}
+        return v.get("VmRSS", -1), v.get("VmHWM", -1)
+    except OSError:
+        return -1, -1
+
+
+@st.cache_resource
+def get_magazine_html() -> str:
+    """
+    Build the whole magazine ONCE per app start; every visitor gets the same string.
+    Editing an article or image won't show until the app restarts (on Streamlit Cloud, a push
+    to GitHub does that; locally press C > Clear cache). The print line goes to the app logs.
+    """
+    html = build_full_html(MAGAZINE, load_cover_image())
+    now, peak = rss_mb()
+    print(f"[magazine] HTML {len(html) / 1e6:.1f} MB | RSS {now:.0f} MB | peak {peak:.0f} MB", flush=True)
+    return html
+
+
+magazine_html = get_magazine_html()
 st.iframe(magazine_html, height=IFRAME_HEIGHT)
 
 if SHOW_PAGE_MAP:
