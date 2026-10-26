@@ -1,0 +1,19 @@
+Title: Why Data Leadership Fails and How We Can Fix It
+Byline: By: Tristan Burns, Strategy & Data Leadership Coach
+Quote: Data leaders need to see themselves as business leaders who happen to run a data function.
+
+Most data teams I encounter are run like service desks. Requests come in, usually for dashboards, and the data leader's success is measured by the number of support tickets the team clears. We promote our best technical people into leadership roles, give them no training in influence or commercial thinking, and then wonder why the data function never gets a seat at the strategy table, where data is an essential input. I've seen this from the inside as a head of data, and I see it every week in my coaching: talented leaders working flat out on work the business barely notices.
+
+The root cause is how data leaders define their own jobs. Most see it as delivering accurate, timely data to whoever asks for it, which hands control of the agenda to the business and leaves the data team permanently reacting. It also means value gets judged by team outputs: reports built, models deployed, tickets closed. None of those numbers will ever appear in a board deck, none of them has any clear correlation with organizational strategic initiatives, and none of them communicates the value of the data team to the executive layer.
+
+Fixing this starts with a change in thinking. Data leaders need to see themselves as business leaders who happen to run a data function. In practice, that means opening every conversation with the commercial problem underpinning it, rather than the data request, pushing back on work that has no decision attached to it, and spending as much time with senior stakeholders as with your own team. It means understanding how decisions actually get made in your organisation, who holds influence, what they are measured on, and then positioning your team's work directly against those priorities.
+
+None of this requires new tools or a bigger team. It requires data leaders to stop waiting for an invitation into strategic conversations and start earning their place in them. The organisations getting real value from data tend to share one trait: a data leader who behaves like a partner to the executive team and is treated as one.
+
+## About the author
+
+I'm Tristan Burns, a data leadership coach, author and content creator. My career includes time spent in investment banking at Bank of America Merrill Lynch before becoming Global Head of Data and Analytics at Pizza Hut Digital. I now run a coaching business helping data leaders build influence and advance their careers, working with senior professionals at organisations including many well known household names. I also write the newsletter Strategies for Effective Data Leadership.
+
+## Get the Data Leadership Playbook
+
+If you want a practical framework for moving your team from service desk to strategic partner, download my free Data Leadership Playbook here: https://trisjburns.com/resources

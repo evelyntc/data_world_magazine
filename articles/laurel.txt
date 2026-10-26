@@ -1,0 +1,63 @@
+Title: The Great Flattening: What AI Is Changing About the Shape of Work
+Byline: By: Laurel Babarogich, I/O Psychologist
+Quote: "To AI or not to AI?" is not the question. We just need to discern which work belongs to it, and which to us.
+
+Most conversations about AI and work nowadays start with one question: which jobs will it replace? I bring to you a more useful one: how is work being divided? In theory, the answer is clean. Tasks that are routine or mostly about moving information, such as drafting, reporting, status updates and data preparation, shift to AI. The work that needs judgment stays with people: framing the right question, checking whether an output is correct, handling exceptions, explaining decisions and owning the result.
+
+In practice, we know this isn't working out that neatly. We are all aware of the horror stories of companies handing judgment to AI along with the routine tasks, letting tools make calls that still need a person behind them. And it isn't going well. Quality slips, the bottom line catches on, and the human capacity that was cut has to be brought back. Klarna is the best-known example: after moving much of its customer-service work (the equivalent of about 700 agents) to AI, it began hiring human agents again once service quality suffered.
+
+How that modern division of labor is done is what's reshaping organizations. The widely accepted reading of the data is that companies are flattening: fewer management layers, larger teams and a shorter distance between the front line and the top. Personally, I don't think that's the end of the story. I expect many of these cuts to be reversed: companies will cut, discover what they lost, hire managers back, and then rebuild their middle from within, until the middle manager growth finally plateaus.
+
+## What the data tells us
+
+**Managers are leading more people.** Gallup's data shows a 48% increase in direct reports per manager since 2013, and the 2024–2025 rise was the largest single-year jump in the series.
+
+**Layers are being removed.** In Korn Ferry's Workforce 2025 survey of more than 15,000 professionals in 10 markets, 41% of employees said their organization had cut management layers. In the U.S., the figure was 44%. Data reported by The Wall Street Journal shows manager headcount at public companies fell 6.1% between May 2022 and May 2025.
+
+**AI has become an organizational design tool.** In 2024, Gartner identified the automation of scheduling, reporting and performance monitoring as the mechanism that lets one manager oversee more people. It forecast that through 2026, 20% of organizations would use AI to flatten their structure and remove more than half of their middle-management roles.
+
+## What happens when layers disappear
+
+Removing layers can lower costs and speed up decisions. However, without a plan for the work managers used to do, it is also costly. Globally, 43% of employees said their leaders were not aligned, and 37% said the loss of managers left them feeling directionless. In the U.S., 40% reported a lack of direction at work. Gartner also warns that flatter structures can disrupt mentoring and development for junior employees.
+
+We seem to overlook the fact that (good) managers do more than pass information up and down. They set priorities, coach people, resolve conflicts between teams and give decisions context. When AI takes over the reporting, those human responsibilities still have to live somewhere.
+
+At the current rate of entry-level hiring plans over the next two years, a surge in medior hiring in order for those juniors to be trained and mentored is inevitable: employers surveyed by NACE planned to hire 5.6% more new college graduates this year than in 2025, and in Korn Ferry's October 2026 survey of more than 500 HR leaders 81% of organizations plan to increase early-career hiring over the next two years. IBM's U.S. entry-level hiring in 2026 was projected to triple in comparison to the previous year. Unemployment among 20- to 24-year-olds with a bachelor's degree fell to 5.3% in March 2026, from 8.9% the previous fall. All this to say, intentions are turning back toward juniors. Once that generation of juniors grows their skill and knowledge base, the rate of external hiring for those middle manager roles will drop off, while the rates of internal promotion will take off.
+
+## Where the change is headed by level
+
+Since January 2025, U.S. postings for senior roles have risen 13.5%, while mid-level postings have fallen 6.7% and entry-level postings 6.2%. In software development, 69.3% of postings in early 2026 were for senior roles, and only 4.5% were entry-level.
+
+Stanford-linked payroll research found a 19% relative employment shortfall for young workers in AI-exposed occupations, and a study of about 285,000 U.S. firms by Lichtinger and Hosseini found that junior employment at companies adopting generative AI fell 7.7% relative to non-adopters within six quarters.
+
+This trend, compared to the entry-level hiring projections for this year, fits the pattern we saw at Klarna: companies experiment with allowing AI to take on different functions and responsibilities, learn their experiment wasn't as successful as they hoped, and rehire human workforce to compensate.
+
+## My view: cut, correct, rebuild, settle
+
+The widely accepted view treats flattening as a one-way move. I don't think it is. I expect companies to keep experimenting with fewer middle managers, but I don't expect most of those experiments to hold. The work that remains in the middle – training people, managing workload and turning strategy into daily work – is something that neither AI nor senior leaders will take on. I expect the next few years to move through four stages:
+
+**1. Cut.** Companies remove layers of middle management, betting that AI can absorb the coordination.
+
+**2. Correct.** Quality and direction suffer, so companies hire managers back. Most come from outside, because the lower levels haven't been developed enough to step up.
+
+**3. Rebuild.** Those managers train the junior employees companies are now hiring again, preparing them to take on more.
+
+**4. Promote and settle.** As internal talent becomes ready, promotion from within rises, external hiring drops, and the structure levels off.
+
+Early signs of the correction are already visible. Klarna cut, then hired human agents again. In G2's 2026 research, 70% of respondents said middle management will stay important and evolve, 17% expected a leaner layer, and only 13% saw it at real risk. IBM has made the same argument I'm making: its chief HR officer, Nickle LaMoreaux, said that cutting entry-level hiring saves money in the short term but leaves companies without future mid-level managers, forcing them to hire from competitors at a higher cost.
+
+I don't expect the plateau to look like the starting point. Teams will likely settle larger than they were before AI, with a leaner but essential middle. That is my projection, not a measured finding, and the timing will vary: large companies with heavy coordination overhead will likely move through the cycle first.
+
+## Why this is good news for people who prepare
+
+**For organizations,** the middle is where the most value can be created. Companies that rebuild the bridge between their top and their base, through structured mentoring, apprenticeships, rotations and clear advancement criteria, will develop talent that their competitors can't.
+
+**For early-career workers,** the path upward will reward judgment over tenure. Learning to question AI output, understand business context and explain a recommendation will move people up faster than before.
+
+**For mid-level professionals,** the strongest position is the work AI can't do alone: framing problems, connecting teams and helping others interpret results.
+
+**For managers,** the role is becoming more consequential. Those who remain will lead more people and carry more accountability, and their value will come from coaching, prioritizing and leading change.
+
+There's reason for optimism in the data too. Klarna's story didn't end with the rehiring: by November 2025, its AI was doing more than 853 agents' worth of work alongside the human agents it brought back. The lesson is that "To AI or not to AI?" is not the question. We just need to discern which work belongs to it, and which to us.
+
+As routine work moves to machines, the people who can validate, decide, integrate and lead will only become more valuable. The organizations that do best will be the ones that deliberately rebuild the bridge between their leaders and everyone else.

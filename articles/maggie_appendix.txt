@@ -1,0 +1,63 @@
+Title: Your Future Career Might Not Exist Yet (continued)
+Byline: By: Maggie Wolff
+Quote: I didn't switch from Communication to Data Science overnight. There were multiple small steps to get there.
+
+I enjoyed analytics, but my liberal arts background meant I had a lot of skill gaps to close if I wanted to move up in the field. So I enrolled in a master's program in Data Science, part-time. By this point I was in my mid-30s. I went to the office during the day, then sat in class or studied 3+ hours most evenings, and spent nearly every weekend on homework. Because I was part-time, this went on for 4 years. I gave up hobbies and most of my social life. There were tears of frustration which evolved into screams into pillows. (Anyone who has learned how to code can relate, right?) (By the way, yes, it was worth it.)
+
+Shortly before I started my first grad school class, I had dinner with an old marketing coworker and couldn't stop thinking about that CS class that weeded me out at 18. What if I got weeded out again? My friend asked: “So what if you fail? What's the worst that can happen?” I already had the job. I could retake a class if I needed to. Failing wouldn't undo how far I’d already come.
+
+But I ended up enjoying my classes. As challenging as it was, I was enjoying learning how to apply computation skills and statistics and other math to massive data sets and find something interesting. I spent all my time studying because I genuinely wanted to thoroughly understand everything I could about data science.
+
+More fun facts: I was about a decade older than most of my classmates. But that turned out to be an advantage - my experience made it easier to connect what I was learning to the business problems I was already facing at work. These weren’t abstract ideas - it felt tangible. So if you’re worried that it’s “too late” to learn something new or try a new field - your experience as “wisdom” can be an asset.
+
+## What Self-Awareness Actually Did For Me
+
+Here's the part that took me longer to see than it should have: none of this was really a detour. It wasn’t necessarily a straight line, but all of the experience was valuable.
+
+I majored in Communication instead of Computer Science and ended up doing computational math for a living anyway. And I ended up working for some tech companies that were part of the dot com boom that drove my desire to be a Webmaster.
+
+My "wasted" years in marketing and communication turned out to be differentiators - I can easily communicate complex ideas, and I have a good understanding of the business problems my stakeholders are trying to solve. This “wasted” experience actually helped me stand out in job interviews as well as on the job.
+
+All my original dreams came true, and I gained bonus experience that I hadn’t originally planned on. My path wasn't linear, but I think this is what can make you the interesting, niche, unicorn candidate who gets noticed.
+
+You can plan all you want, but planning only gets you so far without knowing what you actually enjoy, what you're good at, and what motivates you. That's self-awareness, and it matters more than the plan itself. And the journey can set you up for the perfect career that you don’t yet know about.
+
+None of my job changes were dramatic leaps. They were small, incremental, lateral moves, strung together over many years:
+
+1. Marketing communication for accounting conferences
+
+2. PR & marketing communication for healthcare
+
+3. Digital marketing for healthcare
+
+4. Digital marketing for commercial real estate
+
+5. Digital marketing analytics for commercial real estate
+
+6. Product (digital) analytics for tech (with the title Data Scientist)
+
+7. Go-to-market (sales, marketing, product adoption) analytics for tech (with the title Data Scientist)
+
+I didn't switch from Communication to Data Science overnight. There were multiple small steps to get there. My guiding rule through all of it wasn't some inspiring mission statement, it was "find more of what I like, and less of what I don't." Not glamorous, but very effective. It also meant each switch wasn’t a scary, dramatic step.
+
+I'll be honest: ten years into analytics, I still have moments where I don't think I'm good enough. Imposter syndrome doesn't fully go away. But I've made a kind of peace with it. Nobody knows everything, but everyone knows something, and the best teams are the ones where different people fill different gaps. And the learning never stops.
+
+My old VP had a line I still think about: “you have to get comfortable being uncomfortable.” It sounded hokey at first, but embracing that mindset has served me well.
+
+## You Have More Time Than You Think
+
+Here's the math I talk about a lot when mentoring: your career is probably going to last 40+ years. If you're in your 20s or 30s, you're not even halfway done.
+
+A lot of people pick a major at 18, land a job in that field, climb a little, and then realize that they don't actually like it, but feel stuck, because they've "already invested so much time." But if you're only ~10 years in, you still have 30+ years left. Do you really want to spend 3x as many years as you've already put in, doing something that doesn't fit?
+
+I recently realized, talking to my financial advisor, that I'm closer to the age at which I can withdraw from retirement accounts than I am to the age at which I started contributing to those accounts. But that’s still 18 years away (likely more). I worked in marketing for 12 years. I've only been in analytics for 10 years. Relatively speaking, I've got plenty of runway left. I could pivot at least 1-2 more times before I retire.
+
+If AI comes for my current job, or I decide I want to try something else, I know I can pivot again. I'm not scared of that. I've got multiple career paths already living in my resume, and now I know I can build a new one out of curiosity and a willingness to be bad at something before I'm good at it. That’s what we call a growth mindset.
+
+Data Scientist wasn't a job title when I graduated high school. “Social Media Manager” wasn’t either. Analytics wasn’t a career I had heard of. I couldn't have planned for this career path if I'd wanted to. Yet these are all jobs I’ve done.
+
+So here's my actual advice, the kind I'd give regardless of your age: you don't have to figure out your whole career right now. Pay attention to what you're naturally drawn to, even the parts that don't look impressive on paper. Take the small, incremental step toward more of what you like, and when you’re in a position to do so, try to leave behind some of what you don’t like.
+
+Get comfortable being uncomfortable, on purpose, every so often. Grow. Learn. Develop more self-awareness.
+
+Your ideal career might not exist yet, but you have time to find it.
